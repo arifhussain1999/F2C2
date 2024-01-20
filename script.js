@@ -20,14 +20,14 @@ function PrintDeveloper() {
 function addData() {
   //Write your code here, just console.log
   
-  arr=arr.push({ id: 4, name: 'aniket', age: 24, profession: 'developer' });
-  
+  arr.push({ id: 4, name: 'aniket', age: 24, profession: 'developer' });
+  console.log(arr);
 }
 
 function removeAdmin() {
   //Write your code here, just console.log
  arr= arr.filter(e=>{
-    e.profession!='admin';
+   return e.profession!='admin';
   })
 }
 
